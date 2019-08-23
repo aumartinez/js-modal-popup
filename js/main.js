@@ -11,7 +11,7 @@ let btnOpen = document.getElementById("open-mod");
     let modalclass = "active";    
     let rootclass = "modal-open";
     
-    tgt.style.top = window.scrollY + "px";
+    tgt.style.top = document.documentElement.scrollTop + "px";
     
     addClass(rootclass, root);
     addClass(modalclass, tgt);    
